@@ -11,7 +11,12 @@ header {
   text-align: center;
   background: navy;
   color: white;
-  font-size: 22px;
+  
+}
+
+h1{
+    font-size: 53px;
+    
 }
 /***********
 GOOGLE FONT
@@ -45,6 +50,8 @@ nav a {
 h3{
     text-align: center;
     color:navy;
+    padding-bottom: 23px;
+    font-weight: bold;
 }
 
 main {
@@ -63,17 +70,21 @@ FOOTER
 ***********/
 
 footer {
-    text-align: center;
+    display:flex;
+    text-align: left;
     font-size: 17px;
-    padding: 20px 0;
+    padding: 2% 10% 1%;
     clear: both;
-    background-color: lightskyblue;
-    color: floralwhite;
+    background-color: #e3f2fd;
+    color: darkslategray;
+    
+    
     
 }
 
 .social-icon {
     width: 20px;
     height: 20px;
-    margin: 0px;
+    margin: 0px 0px 0px 20px;
+    text-align: right;
 }
