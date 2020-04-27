@@ -1,3 +1,4 @@
+
 /***********
 HEADER
 ***********/
@@ -22,7 +23,7 @@ body {
     font-family: 'Arial';font-size: 22px;
 }
 /***********
-NAVIGATION
+CONTAINER
 ***********/
 
 
@@ -33,13 +34,13 @@ h3{
     font-weight: bold;
 }
 
+
 main {
     padding: 0 5% 5%;
 }
 
 img.resize {
   width: 20rem;
-/*  max-height:10%;*/
 }
 
 
@@ -74,7 +75,9 @@ footer a {
     margin: 0px 0px 0px 20px;
     
 }
-
+/****************
+RESPONSIVE CSS
+*****************/
 @media only screen and (max-width: 600px) {
   
   h1{

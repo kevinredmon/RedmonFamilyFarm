@@ -1,5 +1,19 @@
-const myHeader = document.getElementById('myHeader');
+// START OF IMAGE TOGGLE
+var toggle = true;
+var imgElement = document.getElementById('toggle');
 
-myHeader.addEventListener('click', () => {
-    myHeader.style.color = 'yellow';
-});
+
+
+function toggleFunction()
+{
+    if(toggle === true)
+    {
+        imgElement.src = "img/whiteBlackLamb.jpg";
+        toggle = false;
+    } else
+    {
+        imgElement.src = "img/whiteLamb.jpg";
+        toggle = true;
+    }
+}
+// END OF IMAGE TOGGLE
