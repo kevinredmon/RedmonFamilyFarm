@@ -85,6 +85,17 @@ RESPONSIVE CSS
   }
     img.resize {
   width: 15rem;
-  height: 5rem;
+
+}
+}
+
+@media only screen and (max-width: 768px) {
+  
+  h1{
+    font-size: 51px;
+  }
+    img.resize {
+  width: 15rem;
+  
 }
 }
