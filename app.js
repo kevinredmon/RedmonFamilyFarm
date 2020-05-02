@@ -2,8 +2,9 @@
 var toggle = true;
 var imgElement = document.getElementById('toggle');
 
-
-
+/*
+ * This function toggles between two pictures.
+ */
 function toggleFunction()
 {
     if(toggle === true)

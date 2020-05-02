@@ -6,39 +6,42 @@ My project is a website dedicated to our family farm. We raise sheep for meat pr
 ```
 The classes I created are:
 1. header
-    padding was added all around, text was aligned to center, background color was set to navy, and text was set to white
+    text was aligned to center, background color was set to navy, and text was set to white
     
-2. h1
-    font size was set for the header
+2. .navbar
+     background color was set to light blue
+
+3. h1
+    font size was set for the header title, and padding set all around the text
     
-3. body
+4. body
     font-family and font-size was set for the body
     
-4. h3
+5. h3
     text was aligned center, color was set to navy, padding added to the bottom, and text was set to bold
 
-5. main 
+6. main 
     padding was added to the right, left, and bottom of the container 
 
-6. img.resize
+7. img.resize
     pictures were resized to fit in the columns and to be responsive in the media queries
 
-7. footer
+8. footer
     display is set to flex, text is aligned to the left, font-size is smaller than the body, padding is set in percentages, background-color and text color is set
     
-8. social-icon
+9. social-icon
     width, height, and margins are set for the twitter symbol in the footer
     
-9. @media only screen and (max-width: 600px)
+10. @media only screen and (max-width: 600px)
     For phones-
         h1 text downsized
         img.resize photos downsized
     
- 10. @media only screen and (max-width: 768px)
+ 11. @media only screen and (max-width: 768px)
     For tablets- 
         h1 text downsized
         img.resize photos downsized   
     
 The javascript function I created is:
 1. toggleFunction
-    is used to switch between two pictures when you click on the image
+    is used to toggle between two pictures when you click on the image

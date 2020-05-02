@@ -4,16 +4,19 @@ HEADER
 ***********/
 
 header {
-  padding: 60px;
   text-align: center;
   background: navy;
   color: white;
   
 }
 
+.navbar {
+    background-color: #e3f2fd;
+}
+
 h1{
     font-size: 71px;
-    
+    padding: 60px;
 }
 /***********
 GOOGLE FONT
